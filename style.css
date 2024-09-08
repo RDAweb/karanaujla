@@ -36,9 +36,13 @@ ul a{
     font-weight: 600;
     font-size: 18px;
     position: relative;
-    left: 600px;
+    left: 530px;
     padding-left: 30px;
 }
+@media(min-width:1000px){
+    .ul a{
+        left: 720px;
+    }
 
 .homee a i{
     width: 40px;
